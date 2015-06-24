@@ -1,4 +1,4 @@
-def knapsack(v,w,S):
+def Knapsack(v,w,S):
     m=len(v)
     c=[[0 for i in range(S+1)] for j in range(m+1)]
     b=[[0 for i in range(S+1)] for j in range(m+1)]   
